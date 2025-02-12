@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+  
+
+.header{
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    height: 395px;
+    width: 400px;
+    position: relative;
+    top: 95px;
+    margin: 0 auto;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(4, 5fr );
+    border-radius: 15px;
+}
+
+
+
+
+
+.one{
+    border: 3px solid ;
+    width: 50px;
+    height: 50px;
+    padding: 16px;
+    border: none;
+    position: relative;
+    margin: 0 auto;
+    bottom: -35px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.click{
+   background-color: green;
+    position: relative;
+    bottom: -30px;
+}
+
+
+.buttom{
+    margin: 0;
+    padding: 0;
+    background-color: green;
+    width: 400px;
+    height: 130px;
+    margin: 0 auto;
+    top: 100px;
+    position: relative;
+    border-radius: 15px;
+    
+}
